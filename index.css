@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1eded;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    min-width: 100%;
+    /* 在小屏幕设备上，将最小宽度设为100% */
+  }
+}
+
+.center-content {
+  width: 68%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 32px 0;
+  background-color: #e6f4ff;
+}
+
+.title {
+  font-size: 36px;
+}
+
+.introduction {
+  color: #626675;
+  font-size: 18px;
+  padding: 12px 0 8px 0;
+}
+
+.img-posts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-posts li {
+  width: 30%;
+  list-style: none;
+}
+
+.img-posts img {
+  width: 100%;
+  border-radius: 8px
+}
+
+/* 内容部分 */
+.definition {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 18px;
+  border: 1px solid #e7e7e7;
+}
+
+.main-img {
+  width: 25%;
+}
+
+.main-text {
+  width: 75%;
+}
+
+.main-text .top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fav {
+  padding: 0 5px;
+}
+
+.fav:nth-child(2) {
+  border-left: 1px solid #d1d0d0;
+  border-right: 1px solid #d1d0d0;
+}
+
+.title-fav {
+  color: #519cea;
+  padding-right: 3px;
+}
+
+.number {
+  color: #888
+}
+
+.mid p {
+  text-indent: 2em;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+.bottom {
+  margin-top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+.info,
+.actor {
+  margin-top: 12px;
+  padding: 32px 16px;
+  background-color: #fff;
+}
+
+.info-title {
+  border-left: 10px solid #003eb3;
+  margin: 0px -16px;
+  padding: 0px 16px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #eee;
+  margin: 0 12px;
+}
+
+.info-list {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.actor-item {
+  display: flex;
+  padding: 16px 0;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.actor-item img {
+  width: 125px;
+}
+
+.actor-item .actor-info {
+  margin-left: 16px;
+
+}
+
+.role-name {
+  color: #136ec2;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.key-item {
+  margin: 0 6px 0 0;
+  color: #999;
+}
+
+.actor-name {
+  margin-bottom: 12px;
+}
+
+.role-info {
+  margin-top: 22px;
+  color: #333;
+  font-size: 13px;
+}
+
+.info-item {
+  width: 48%;
+  display: flex;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+  flex-wrap: nowrap;
+}
+
+.info-list {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-key {
+  color: #999;
+  width: 20%;
+}
+
+.info-value {}
