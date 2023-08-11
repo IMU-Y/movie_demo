@@ -103,9 +103,15 @@ header {
   flex-wrap: wrap;
 }
 
+.bottom-item {
+  width: 50%;
+  display: flex;
+  padding: 10px 0;
+}
 
-
-
+.bottom-key {
+  font-weight: 600;
+}
 
 .info,
 .actor {
