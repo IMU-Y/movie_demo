@@ -97,6 +97,7 @@ header {
 }
 
 .bottom {
+  text-indent: 2em;
   margin-top: 75px;
   display: flex;
   flex-wrap: wrap;
